@@ -1,1 +1,1 @@
-# TB_treatment_prediction
+# TB_Treatment_Prediction
