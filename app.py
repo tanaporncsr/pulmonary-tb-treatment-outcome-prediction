@@ -346,7 +346,6 @@ def load_assets():
     except Exception as e:
         st.error(f"โหลดโมเดลไม่สำเร็จ: {e}")
         return None, None
-@st.cache_resource
 
 model, model_features = load_assets()
 
