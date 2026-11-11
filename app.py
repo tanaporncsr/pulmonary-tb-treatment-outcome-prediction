@@ -332,14 +332,21 @@ div[data-testid="stFormSubmitButton"] > button:hover {
 </style>
 """, unsafe_allow_html=True)
 
+import json
+import xgboost as xgb
+
 @st.cache_resource
 def load_assets():
     try:
-        m = joblib.load('xgb_tb_model.pkl')
-        f = joblib.load('model_features.pkl')
-        return m, f
-    except:
+        m = xgb.XGBClassifier()
+        m.load_model("xgb_tb_model.json")
+        with open("model_features.json", encoding="utf-8") as f:
+            feats = json.load(f)
+        return m, feats
+    except Exception as e:
+        st.error(f"โหลดโมเดลไม่สำเร็จ: {e}")
         return None, None
+@st.cache_resource
 
 model, model_features = load_assets()
 
