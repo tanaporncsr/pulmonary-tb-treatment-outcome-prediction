@@ -27,8 +27,10 @@ This project focuses on comparing Machine Learning and Deep Learning models for 
 
 ## Model Performance
 
+The performance of the four models was evaluated using Accuracy, Precision, Recall, and F1-Score.
+
 | Model | Accuracy | Precision | Recall | F1-Score |
-|---|---:|---:|
+|---|---:|---:|---:|---:|
 | XGBoost | 93.99% | 92.13% | 89.59% | 90.78% |
 | Random Forest | 93.78% | 91.53% | 89.60% | 90.52% |
 | CatBoost | 93.88% | 91.86% | 89.56% | 90.64% |
