@@ -38,7 +38,8 @@ The performance of the four models was evaluated using Accuracy, Precision, Reca
 
 XGBoost achieved the highest Accuracy, Precision, and F1-Score among the four models, while Random Forest achieved the highest Recall.
 
-## Web Application [Try the App](https://pulmonary-tb-treatment-outcome-prediction-mkdcvhw8b4abzjfwawv7.streamlit.app)
+## Web Application 
+[Try the App](https://pulmonary-tb-treatment-outcome-prediction-mkdcvhw8b4abzjfwawv7.streamlit.app)
 A web application was developed using Streamlit to allow users to input patient information and view predictions from the trained XGBoost model.
 
 **Application Preview**
