@@ -8,11 +8,11 @@ This project focuses on comparing Machine Learning and Deep Learning models for 
 
 - Develop and compare four models: XGBoost, Random Forest, CatBoost, and Artificial Neural Network (ANN).
 - Classify pulmonary tuberculosis treatment outcomes based on WHO categories.
-- Evaluate model performance, with a focus on Accuracy and Recall.
+- Evaluate and compare model performance using Accuracy, Precision, Recall, and F1-Score.
 
 ## Dataset
 
-- **Number of records:** 25,239
+- **Initial dataset size:** 25,239
 - **Data source:** Office of Disease Prevention and Control 1, Chiang Mai, Thailand
 - **Target variable:** Treatment Outcome (Successful / Unsuccessful)
 
@@ -36,9 +36,9 @@ The performance of the four models was evaluated using Accuracy, Precision, Reca
 | CatBoost | 93.88% | 91.86% | 89.56% | 90.64% |
 | ANN | 92.95% | 89.74% | 89.15% | 89.44% |
 
+XGBoost achieved the highest Accuracy, Precision, and F1-Score among the four models, while Random Forest achieved the highest Recall.
 
-## Web Application
-
+## Web Application [Try the App](https://pulmonary-tb-treatment-outcome-prediction-mkdcvhw8b4abzjfwawv7.streamlit.app)
 A web application was developed using Streamlit to allow users to input patient information and view predictions from the trained XGBoost model.
 
 **Application Preview**
