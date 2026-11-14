@@ -46,6 +46,14 @@ A web application was developed using Streamlit to allow users to input patient 
 
 ![Streamlit Application Screenshot](images/app-screenshot.png)
 
+## Project Background & Team Collaboration
+
+This project was developed as a team research project for a student research competition. Team members shared responsibilities across data cleaning and model development, with each member working on assigned tasks and models. The results were then integrated for model comparison and evaluation.
+
+## Achievement
+
+- **First Prize – Student Research Oral Presentation**, 12th National Conference on Science and Technology (KKR-NCST 2026), June 2026.
+
 ## Disclaimer
 
 This project was developed for educational and research purposes only. The predictions should not be used as a substitute for professional medical diagnosis or treatment decisions.
