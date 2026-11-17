@@ -706,4 +706,4 @@ if sub:
         </div>""", unsafe_allow_html=True)
 
     else:
-        st.error("ไม่พบไฟล์โมเดล กรุณาตรวจสอบว่ามีไฟล์ `xgb_tb_model.pkl` และ `model_features.pkl` อยู่ในโฟลเดอร์เดียวกัน")
+        st.error("ไม่พบไฟล์โมเดล กรุณาตรวจสอบว่ามีไฟล์ `xgb_tb_model.json` และ `model_features.json` อยู่ในโฟลเดอร์เดียวกัน")
